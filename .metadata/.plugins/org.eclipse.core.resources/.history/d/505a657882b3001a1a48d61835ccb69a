@@ -1,0 +1,12 @@
+package com.tcs.comparator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListSorting {
+	List<Integer> list=new ArrayList<Integer>();
+	
+	list.add(10);
+
+
+}

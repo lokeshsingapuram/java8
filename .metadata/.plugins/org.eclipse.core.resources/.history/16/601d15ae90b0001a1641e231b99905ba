@@ -1,0 +1,12 @@
+package com.tcs;
+
+public class ILambdaExample3 implements ILambdaExpression3 {
+
+	
+	public static void main(String[] args) {
+
+		ILambdaExpression3 exp3=(s)->System.out.println(s.length());
+		exp3.
+	}
+
+}

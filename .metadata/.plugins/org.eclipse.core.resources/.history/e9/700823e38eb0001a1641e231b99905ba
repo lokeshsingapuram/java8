@@ -1,0 +1,7 @@
+package com.tcs;
+
+import com.tcs.interfaces.ILambdaexpression1;
+
+public class ILambdaExpression1 implements ILambdaexpression1{
+
+}

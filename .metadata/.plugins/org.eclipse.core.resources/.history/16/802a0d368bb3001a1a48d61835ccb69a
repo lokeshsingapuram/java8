@@ -1,0 +1,14 @@
+package com.tcs.comparator;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class TreeMapWithLambda {
+
+	public static void main(String[] args) {
+		Map<Integer, String> map=new TreeMap<Integer,String>((o1,o2)->{
+			return (o1>o2) ? -1 :(o1<o2) ? +1 : 0;
+		});
+	}
+}

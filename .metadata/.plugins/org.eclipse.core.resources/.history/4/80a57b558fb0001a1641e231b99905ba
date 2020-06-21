@@ -1,0 +1,10 @@
+package com.tcs;
+
+import com.tcs.interfaces.ILambdaexpression2;
+
+public class ILambdaExpression1 implements ILambdaexpression2{
+public static void main(String[] args) {
+	ILambdaexpression2 exp1=(a,b)->System.out.println("sum of two numbres:"+(a+b));
+	exp1.Addition(20, 30);
+}
+}

@@ -1,0 +1,12 @@
+package com.tcs;
+
+public class LambdaExpressions {
+	
+	() -> System.out.println("Zero parameter lambda");
+
+
+	public static void main(String[] args) {
+
+	}
+
+}
