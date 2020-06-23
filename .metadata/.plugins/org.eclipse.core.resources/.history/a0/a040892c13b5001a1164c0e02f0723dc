@@ -1,0 +1,17 @@
+package com.tcs.comparator;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.tcs.model.Employee;
+
+public class HashSetTest {
+	
+	
+	Employee emp=null;
+	Set<Employee> set= new HashSet<Employee>();
+	emp=new Employee();
+ 
+	
+
+}

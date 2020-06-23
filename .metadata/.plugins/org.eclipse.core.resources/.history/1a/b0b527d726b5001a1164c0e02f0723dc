@@ -1,0 +1,8 @@
+package com.tcs.predicates;
+
+public class PredicateSoftwareEngineerTest {
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+/*
+ * 
+ * Program to remove null values and empty string in given array
+ * */
+
+package com.tcs.predicates;
+
+public class PredicateToRemoveNullValues {
+
+}

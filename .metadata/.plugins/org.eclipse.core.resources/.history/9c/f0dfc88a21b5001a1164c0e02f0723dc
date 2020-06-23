@@ -1,0 +1,14 @@
+package com.tcs.predicates;
+
+import java.util.function.Predicate;
+
+import com.tcs.model.User;
+
+public class PredicateAuthenticationTest {
+	
+	public static void main(String[] args) {
+		Predicate<User>  userTest=user->user.getUserName().equalsIgnoreCase("durga")&&user.getPassword().equals("java");
+		
+	}
+
+}

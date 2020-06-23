@@ -1,0 +1,8 @@
+package com.tcs.model;
+
+public class SoftwareEngineer {
+	private String name;
+	private int age;
+	private boolean isHavingGF;
+	
+}
