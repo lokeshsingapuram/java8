@@ -1,0 +1,8 @@
+//program to find total salary of all employees
+package com.tcs.function;
+public class FunctionTest3 {
+	public static void main(String[] args) {
+		
+	}
+
+}

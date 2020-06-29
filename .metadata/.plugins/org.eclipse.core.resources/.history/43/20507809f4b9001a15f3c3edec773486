@@ -1,0 +1,32 @@
+package com.tcs.consumer;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+import com.tcs.model.Student;
+
+public class ConsumerProgram3 {
+
+	public static void main(String[] args) {
+		List<Student> stud=new ArrayList<Student>();
+		populate(stud);
+		Predicate<Student> p=st->st.getStudentMarks()>60;
+		Function<Student, String> f =stuMarks->{
+			if(stuMarks.getStudentMarks()>80)
+				return "distinction";
+			else if(stuMarks.getStudentMarks()>=60)
+				return "first class";
+			else if(stuMarks.getStudentMarks()<35)
+				return "fail";
+				
+		};
+	}
+	private static void populate(List<Student> list) {
+		list.add(new Student(101, "nick", 100));
+		list.add(new Student(102, "jones", 60));
+		list.add(new Student(104, "smith", 55));
+		list.add(new Student(104, "clarke", 78));
+	}
+}

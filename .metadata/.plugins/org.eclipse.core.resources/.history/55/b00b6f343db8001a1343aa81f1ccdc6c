@@ -1,0 +1,8 @@
+package com.tcs.function;
+
+public class FunctionTest1 {
+public static void main(String[] args) {
+	String s="This is Lokesh from TCS";
+	System.out.println("calculate ");
+}
+}

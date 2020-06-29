@@ -1,0 +1,33 @@
+package com.tcs.function;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Function;
+
+import com.tcs.model.Student;
+
+public class FunctionTest2 {
+
+	public static void main(String[] args) {
+		List<Student> list=new ArrayList<Student>();
+		populate(list);
+
+		Function<Student, String>f=student->{
+			int marks=student.getStudentMarks();
+			if(marks>80)
+				return "A Grade";
+			else if(marks>60)
+				return "B Grade";
+			else if(marks>=35)
+				return "C Grade";
+			else
+				return "Fail";
+		};
+	}
+
+	private static void populate(List<Student> list) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.tcs.model;
+
+public class Employee1 {
+	
+	private String employeeName;
+	private String designation;
+	private Double salary;
+	private String location;
+	
+	
+
+}

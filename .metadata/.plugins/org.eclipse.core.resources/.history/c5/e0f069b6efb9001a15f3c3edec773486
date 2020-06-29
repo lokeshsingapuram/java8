@@ -1,0 +1,11 @@
+package com.tcs.consumer;
+
+import java.util.function.Consumer;
+
+public class ConsumerProgram1 {
+
+	public static void main(String[] args) {
+		Consumer<String> c=c1->c1.toUpperCase();
+		System.out.println(c.accept("lokesh"));
+	}
+}

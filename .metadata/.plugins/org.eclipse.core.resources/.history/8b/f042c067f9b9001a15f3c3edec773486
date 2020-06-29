@@ -1,0 +1,23 @@
+package com.tcs.supplier;
+
+import java.util.function.Supplier;
+
+public class SupplierTest4 {
+	public static void main(String[] args) {
+
+		Supplier<String> randomPasswords=()->{
+			
+			String symbols="ABCDEFGHIJKLMNOPQRSTUVWXYZ@#$";
+			Supplier<Integer> digits=()->(int)(Math.random()*10);
+			Supplier<String> characters=()->{
+				
+				symbols.charAt((int)Math.random()*29);
+			};
+			
+			
+			
+			
+		};
+
+	}
+}

@@ -16,6 +16,7 @@ public class PredicateAuthenticationTest {
 		User user=new User(userName, password);
 		if(userTest.test(user)) {
 			System.out.println("valid user");
+			sc.close();
 		}
 		else {
 			System.out.println("invalid user");

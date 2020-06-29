@@ -1,0 +1,7 @@
+package com.tcs.consumer;
+
+public class ConsumerProgram2 {
+public static void main(String[] args) {
+	
+}
+}

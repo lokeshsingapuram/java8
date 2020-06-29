@@ -9,6 +9,7 @@ public class AnonymousWithLambda {
 	public void m2() {
 		interf test = ()-> {
 			int x = 888;
+			System.out.println(x);
 				System.out.println(this.x);
 		};
 		test.m1();

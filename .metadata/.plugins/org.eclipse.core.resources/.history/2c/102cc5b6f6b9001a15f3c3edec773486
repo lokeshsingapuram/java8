@@ -1,0 +1,7 @@
+package com.tcs.supplier;
+
+public class SupplierTest1 {
+public static void main(String[] args) {
+	
+}
+}

@@ -1,0 +1,15 @@
+package com.tcs.supplier;
+
+import java.util.function.Supplier;
+
+public class SupplierTest1 {
+public static void main(String[] args) {
+	Supplier<String> s=()->{
+		String[] names= {"lokesh","harish","pavan","gouri"};
+		int x;
+		x=(int) (Math.random()*4);
+		return names[x];
+	};
+	System.out.println(s.get());
+}
+}

@@ -1,5 +1,0 @@
-package com.tcs.interfaces;
-
-public interface ILambdaExpression3 {
-
-}
