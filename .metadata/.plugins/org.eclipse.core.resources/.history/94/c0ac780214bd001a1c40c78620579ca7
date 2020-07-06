@@ -1,0 +1,7 @@
+package com.tcs.methodreference;
+
+public class ConstructorReferTest {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,5 +1,0 @@
-package com.tcs.comparator;
-
-public class AnonymousWithoutLambda {
-
-}

@@ -1,8 +1,0 @@
-package com.tcs.comparator;
-
-public class SortingEmployeeObject {
-	public static void main(String[] args) {
-		
-	}
-
-}
